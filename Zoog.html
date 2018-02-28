@@ -1,1 +1,62 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<html>
 
+<head>
+    <title>p5js Template</title>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/0.5.3/p5.js"></script>
+    
+    <script>
+        function setup() {
+            createCanvas(800,600);
+            
+            background(150,150,150);
+            
+            // case
+            rect(250,50,350,550);
+            
+            
+            
+            
+            
+            // head
+            strokeWeight(5)
+            fill(255,0,0);
+            ellipse(410,150,150,150);
+            // body #1
+            fill(0,0,255),
+            ellipse(410,300,150,150);
+            // body #2
+            ellipse(410,450,150,150);
+            point(410,450);
+            // eye#1
+            fill(0);
+            ellipse(380,125,35,35);
+            // eye#2
+            fill(0);
+            ellipse(425,125,35,35);
+            // mouth
+            ellipse(402,180,20,60)
+            // text
+            textSize(50);
+            text("B",510,190);
+            textSize(50);
+            text("o",545,190);
+            textSize(50);
+            text("o",570,190);
+            // Arms
+            stroke(255,0,0);
+            line(330,300,250,400)
+            line(485,300,575,375)
+        }
+
+        function draw() {
+            
+        }
+    </script>
+</head>
+
+<body>
+
+</body>
+
+</html>
